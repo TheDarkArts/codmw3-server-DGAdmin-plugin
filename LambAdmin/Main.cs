@@ -181,7 +181,7 @@ namespace LambAdmin
             }
             catch (Exception)
             {
-                WriteLog.Info("# Haxor connected. Could not retrieve/set player info. Kicking...");
+                WriteLog.Info("# Hacker connected. Could not retrieve/set player info. Kicking...");
                 try
                 {
                     HaxLog.WriteInfo("----STARTREPORT----");
