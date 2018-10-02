@@ -24,8 +24,8 @@ namespace LambAdmin
         public DGAdmin()
             : base()
         {
-            WriteLog.Info("RGAdmin is starting...");
-            MainLog.WriteInfo("RGAdmin starting...");
+            WriteLog.Info("Admin script is starting...");
+            MainLog.WriteInfo("Admin script starting...");
 
             if (!Directory.Exists(ConfigValues.ConfigPath))
             {
@@ -160,7 +160,7 @@ namespace LambAdmin
         public void MAIN_OnPlayerConnecting(Entity player)
         {
             player.SetField("isConnecting", 1);
-            player.SetClientDvar("didyouknow", "get REKT naba");
+            player.SetClientDvar("didyouknow", "get REKT bruh");
         }
 
         public void MAIN_OnPlayerConnect(Entity player)
@@ -181,7 +181,7 @@ namespace LambAdmin
             }
             catch (Exception)
             {
-                WriteLog.Info("# Haxor connected. Could not retrieve/set player info. Kicking...");
+                WriteLog.Info("# Hacker connected. Could not retrieve/set player info. Kicking...");
                 try
                 {
                     HaxLog.WriteInfo("----STARTREPORT----");
