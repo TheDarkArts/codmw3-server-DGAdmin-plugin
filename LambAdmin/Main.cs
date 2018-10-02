@@ -24,8 +24,8 @@ namespace LambAdmin
         public DGAdmin()
             : base()
         {
-            WriteLog.Info("RGAdmin is starting...");
-            MainLog.WriteInfo("RGAdmin starting...");
+            WriteLog.Info("Admin script is starting...");
+            MainLog.WriteInfo("Admin script starting...");
 
             if (!Directory.Exists(ConfigValues.ConfigPath))
             {
